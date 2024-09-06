@@ -1,7 +1,7 @@
 /*
  * @Author: Bin
  * @Date: 2021-07-29
- * @FilePath: /react-native-qq-lib/index.d.ts
+ * @FilePath: /react-native-qq-lib-mo/index.d.ts
  */
 
 import React from 'react';
@@ -33,11 +33,15 @@ declare const login: (scopes?: string) => Promise<any>;
 declare const shareToQQ: (data: QQLibShareNewsPropTypes | QQLibShareTextPropTypes | QQLibShareImagePropTypes) => Promise<any>;
 declare const shareToQzone: (data: QQLibShareNewsPropTypes | QQLibShareTextPropTypes | QQLibShareImagePropTypes) => Promise<any>;
 declare const logout: () => {};
+declare const isQQInstalled: () => Promise<boolean>;
+declare const init: () => void
 
 export {
     login,
     shareToQQ,
     shareToQzone,
     logout,
+    isQQInstalled,
+    init
 };
 

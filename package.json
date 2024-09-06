@@ -1,6 +1,6 @@
 {
-    "name": "react-native-qq-lib",
-    "version": "3.1.0",
+    "name": "react-native-qq-lib-mo",
+    "version": "0.0.3",
     "description": "QQ Login and Share support in React Native.",
     "main": "index.js",
     "typings": "index.d.ts",
@@ -16,7 +16,7 @@
         "ios",
         "android"
     ],
-    "author": "PBK-B",
+    "author": "yz",
     "license": "ISC",
     "peerDependencies": {
         "react": "^16.8.1",
